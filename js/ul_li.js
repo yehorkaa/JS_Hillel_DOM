@@ -14,7 +14,7 @@
 // menuBtn.addEventListener('click', function(){
 // 	menu.classList.toggle('active');
 // })
-
+//////////////////////////////////////////////////////////
 const ul = document.createElement("ul");
 ul.style.margin = "100px";
 let container = document.querySelector(".container");
@@ -44,58 +44,5 @@ function generateList(array) {
 }
 
 generateList([1, 2, 3, [1, 2, 3,4], 4,5]);
-//////////////////////////////////////
-// for (let i = 0; i < array.length; i++) {
-//     const element = array[i];
-//     const li = document.createElement("li");
-//     li.textContent = element;
-//     ul.appendChild(li);
-
-//     if (Array.isArray(element)) {
-//       counter+=1
-//       const ul2 = document.createElement("ul");
-//       ul.appendChild(ul2);
-//       for (let j = 0; j < array[i].length; j++) {  // вложенный цикл запускает ВСЕ свои итерации на каждую итерацию основного
-//         const li2 = document.createElement("li");
-//         let element2 = element[j];
-//         li2.textContent = i + "." + element2;
-//         ul2.appendChild(li2);
-//       }
-//     }
-//   }
-/////////////////////////////////
-//const para = document.createElement("p");
-// const node = document.createTextNode("This is new.");  //creating element node
-// para.appendChild(node); //append it to an existing element
-//перфект когда мы не говорим когда это слцчилось
-// for(let i = 0; i < array.length; i++) {
-//     const element = array[i]
-//     const li = document.createElement('li')
-//     li.textContent = element
-//     console.log(ul.appendChild(li))
-
-//     if(Array.isArray(element)) {
-//         const ul2 = document.createElement('ul');
-//         ul.appendChild(ul2)
-//         for(let j = 0; j < array[i].length; j++) {
-//             const li2 = document.createElement('li')
-//             let element2 = element[j]
-//             li2.textContent = element +  '.' + element2
-//             console.log(ul2.appendChild(li2))
-//         }
-//     }
-// }
-
-// counter++
-// const element = array[i]
-// const li = document.createElement('li')
-// li.textContent = element
-// console.log(ul.appendChild(li))
-
-// if(Array.isArray(element)) {
-//     const ul2 = document.createElement('ul');
-//     ul.appendChild(ul2)
-//     let sub = generateList(element, counter+1)
-//     console.log(sub)
-// }
+//////////////////////////////////////////////////////
 
