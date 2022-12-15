@@ -24,9 +24,7 @@ a {
   flex-direction: row;
 }
 .main_section .container .text {
-  display: block;
   font-size: 30px;
-  margin: 0 auto;
 }
 
 .parent {
@@ -45,4 +43,15 @@ a {
   margin-top: 30px;
   margin-right: 10%;
   color: #fff;
+}
+
+.block {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 14px;
+  outline: 2px solid blueviolet;
+  color: #fff;
+  padding: 15px;
 }/*# sourceMappingURL=index.css.map */
