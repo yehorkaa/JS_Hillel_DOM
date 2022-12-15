@@ -34,7 +34,7 @@ text.addEventListener('mouseleave', function(event) {
 
 const element = document.createElement('div')
 element.classList.add('block')
-element.textContent = 'Hello bitches'
+element.textContent = 'Hello!'
 text.addEventListener('click', function() {
     container.appendChild(element)
 })
